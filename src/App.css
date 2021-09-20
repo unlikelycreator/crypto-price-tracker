@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    height: 80px;
+    color: Black;
+    background: rgb(238,174,202);
+    background: linear-gradient(56deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    position: fixed;
+}
+
+header h1{
+    font-size: 30px;
+    color: black;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1d1d1d;
+    min-height: 100vh;
+}
+
+.coin-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px;
+    padding-top: 100px;
+}
+.coin-search h1{
+    font-size: 30px;
+}
+.coin-input{
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(50, 113, 221);
+    margin-left: 10px;
+    width: 100%;
+    color: black;
+}
+.form{
+    width: 50%;
+}
+
+.git-btn{
+    padding: 10px;
+    color: black;
+    font-family: monospace;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    background-color: white ;
+    text-decoration: none;
+}
+.git-btn:hover{
+    background-color: rgba(238,174,202,1);
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.logo{
+    filter: grayscale(100%)
+}
+
+@media only screen and (max-width: 800px) {
+    .coin-search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 50px;
+    }
+    .coin-search h1{
+        font-size: 30px;
+    }
+    .coin-input{
+        height: 40px;
+        text-align: center;
+        border-radius: 10px;
+        outline: none;
+        border: 1px solid #1d1d1d;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .form{
+        width: 60%;
+    }
+  }
