@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Live Example: [Cryptolook](http://cryptolook.netify.app)
+Live Example: [Cryptolook](https://cryptolook.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
